@@ -58,12 +58,8 @@ ul {
 }
 
 .header-title {
-    color: #4296ff;
-    font-size: 60px;
-    font-weight: normal;
-    line-height: 1.4;
-    text-transform: uppercase;
     margin-top: 75px;
+    width: 325px;
 }
 
 .header-slogan {
@@ -78,7 +74,7 @@ ul {
 
 .header-date {
     color: #4296ff;
-    font-size: 60px;
+    font-size: 78px;
     font-weight: bold;
     line-height: 1.4;
     margin-top: 8px;
@@ -192,6 +188,7 @@ p.card-content ~ h3 {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    max-width: 600px;
 }
 
 .contact {
@@ -225,6 +222,10 @@ p.card-content ~ h3 {
     padding-top: 24px;
 }
 
+.question {
+    letter-spacing: 0.03em;
+}
+
 .logo-collection {
     display: flex;
     align-items: center;
@@ -234,14 +235,34 @@ p.card-content ~ h3 {
     max-width: 550px;
 }
 
-.logo {
-    width: 240px;
+.logo-link {
+    margin: 0 auto;
+}
+
+.logo-platinum {
+    height: 70px;
     padding: 16px;
     margin: 0 auto;
 }
 
-.question {
-    letter-spacing: 0.03em;
+.logo-gold {
+    height: 60px;
+    padding: 16px;
+    margin: 0 auto;
+}
+
+.logo-silver {
+    height: 45px;
+    padding: 16px;
+    margin: 0 auto;
+}
+
+.sponsors {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 28px;
+    font-weight: bold;
+    color: #484880;
 }
 
 .team {
@@ -375,19 +396,17 @@ p.card-content ~ h3 {
         margin-top: 16px;
         margin-left: 0;
     }
+
 }
 
+/* Large screens */
 @media screen and (min-width: 1200px) {
     .cards {
-        width: 1160px;
+        max-width: 1160px;
     }
 
     .card.card-double {
         width: 1080px;
-    }
-
-    .logo-collection {
-        max-width: 1120px;
     }
 
     .team {
@@ -395,9 +414,27 @@ p.card-content ~ h3 {
     }
 }
 
+/* Large screens */
 @media screen and (min-width: 550px) {
     .header-date {
         font-size: 120px;
+    }
+
+    .header-title {
+        margin-top: 110px;
+        width: 496px;
+    }
+
+    .logo-platinum {
+        height: 90px;
+    }
+
+    .logo-gold {
+        height: 75px;
+    }
+
+    .logo-silver {
+        height: 60px;
     }
 }
 
