@@ -247,7 +247,9 @@ p.card-content ~ h3 {
 }
 
 .logo-gold {
-    height: 60px;
+    /*height: 60px;*/
+    height: auto;
+    width: 300px;
     padding: 16px;
     margin: 0 auto;
 }
@@ -431,7 +433,9 @@ p.card-content ~ h3 {
     }
 
     .logo-gold {
-        height: 75px;
+        /*height: 75px;*/
+        height: auto;
+        width: 380px;
     }
 
     .logo-silver {
