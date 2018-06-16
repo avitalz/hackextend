@@ -172,8 +172,8 @@ ul.card-content ~ p {
 }
 
 p.card-content ~ h3 {
-    margin-top: 16px;
-}
+     margin-top: 16px;
+ }
 
 .card-blue {
     background-color: #4296ff;
@@ -225,6 +225,21 @@ p.card-content ~ h3 {
 
 .question {
     letter-spacing: 0.03em;
+}
+
+.hackextend-images {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #484880;
+    max-width: 1128px;
+    margin: 16px 0 16px;
+}
+
+.hackextend-image {
+    width: 376px;
+    margin: 0 auto;
 }
 
 .logo-collection {
@@ -303,9 +318,20 @@ p.card-content ~ h3 {
     color: black;
 }
 
+.group-image-container {
+    border-radius: 3px;
+    overflow: hidden;
+    margin: 0 0 24px;
+}
+
+.group-image {
+    display: block;
+    width: 100%;
+}
+
 .nav {
     width: 100%;
-    height: 70px;/* required for mobile */
+    height: 70px; /* required for mobile */
     line-height: 56px;
     top: -16px;
     position: fixed;
