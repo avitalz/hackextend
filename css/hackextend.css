@@ -233,7 +233,8 @@ p.card-content ~ h3 {
     justify-content: space-between;
     flex-wrap: wrap;
     background-color: #484880;
-    max-width: 1128px;
+    max-width: 546px;
+    border-radius: 3px;
     margin: 16px 0 16px;
 }
 
@@ -436,6 +437,11 @@ p.card-content ~ h3 {
 
     .card.card-double {
         width: 1080px;
+    }
+
+
+    .hackextend-images {
+        max-width: 1128px;
     }
 
     .team {
