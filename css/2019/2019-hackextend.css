@@ -10,7 +10,6 @@ header {
 
 h2 {
     font-size: 38px;
-    /*letter-spacing: 0.0625em;*/
     font-weight: 600;
     line-height: 1.14;
     margin-bottom: 8px;
@@ -151,6 +150,7 @@ nav .button-yellow {
     text-align: center;
     font-size: 38px;
     margin-top: 6px;
+    font-weight: bold;
 }
 
 #countdown {
@@ -161,6 +161,13 @@ nav .button-yellow {
     font-size: 1em;
     letter-spacing: 3px;
     margin-top: 5%;
+}
+
+.arrow-icon{
+    position: relative;
+    width:10%;
+    left: 60%;
+    position: relative;
 }
 
 .days, .hours, .minutes, .seconds, .left {
@@ -190,16 +197,15 @@ nav .button-yellow {
 
 .c-title{
     font-weight: bold;
-    position: relative;
     font-size: 0.6em;
 }
 
 .minutes-title{
-    left: -9px;
+    margin-left: -9px;
 }
 
 .seconds-title{
-    left: -11px;
+    margin-left: -11px;
 }
 
 .card {
@@ -245,6 +251,14 @@ p.card-content ~ h3 {
 
 .card-purple {
     background-color: #484880;
+}
+
+.slideright{
+    visibility: hidden;
+}
+
+.slideleft{
+    visibility: hidden;
 }
 
 .cards {
@@ -302,9 +316,21 @@ p.card-content ~ h3 {
     margin: 16px 0 16px;
 }
 
+.hackextend-image:hover{
+    transform: scale(1.4);
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+}
+
 .hackextend-image {
     width: 376px;
     margin: 0 auto;
+}
+
+.first{
+    visibility: hidden;
 }
 
 .logo-collection {
@@ -327,11 +353,20 @@ p.card-content ~ h3 {
 }
 
 .logo-gold {
-    /*height: 60px;*/
     height: auto;
     width: 300px;
     padding: 16px;
     margin: 0 auto;
+}
+
+.gmlogo{
+    width: 198px !important;
+    height: auto !important;
+}
+
+.wixlogo{
+    height: auto !important;
+    width: 186px !important;
 }
 
 .logo-silver {
@@ -431,13 +466,13 @@ p.card-content ~ h3 {
     position: absolute;
     top: 16px;
     right: 0;
-    background: white url(../img/nav.svg) no-repeat center center;
+    background: white url(../../img/nav.svg) no-repeat center center;
     height: 40px;
     width: 40px;
 }
 
 .nav-mobile-open {
-    background: #484880 url(../img/close.svg) no-repeat center center;
+    background: #484880 url(../../img/close.svg) no-repeat center center;
     top: 28px;
     right: -10px;
 }
@@ -504,6 +539,10 @@ p.card-content ~ h3 {
         width: 1080px;
     }
 
+    .about-content{
+        width: 60% !important;
+    }
+
     .hackextend-images {
         max-width: 1128px;
     }
@@ -523,6 +562,10 @@ p.card-content ~ h3 {
     .c-title {
         font-weight: bold;
     }
+
+    .bx-wrapper {
+        max-width: 51%;
+    }
 }
 
 /* Large screens */
@@ -541,7 +584,6 @@ p.card-content ~ h3 {
     }
 
     .logo-gold {
-        /*height: 75px;*/
         height: auto;
         width: 380px;
     }
@@ -560,11 +602,11 @@ p.card-content ~ h3 {
 
     .c-title {
         font-size: 1em;
-        left: 2px;
+        margin-left: 2px;
     }
 
     .seconds-title{
-        left: -5px;
+        margin-left: -5px;
     }
 }
 
@@ -584,11 +626,18 @@ p.card-content ~ h3 {
     }
 
     .minutes-title{
-        left: -12px;
+        margin-left: -12px;
     }
 
     .seconds-title {
-        left: -15px;
+        margin-left: -15px;
     }
 }
+
+@media screen and (max-width: 1200px) {
+    .person{
+        width: unset;
+    }
+}
+
 

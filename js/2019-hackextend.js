@@ -41,5 +41,31 @@ $(document).ready(function() {
                 <div class=\"seconds\"> \
                 <div class=\"c-number\">" + seconds + "</div><div class='c-title seconds-title'>Seconds</div></div> \
                 </div>";
-        } , 50000);
+        } , 1000);
+
+
+    $(window).scroll(function() {
+        var winTop = $(window).scrollTop();
+        $(".slideright").each(function(){
+            var pos = $(this).offset().top;
+            if (pos < winTop + 800) {
+                $(this).addClass("slideRight");
+            }
+        });
+
+        $(".slideleft").each(function(){
+            var pos = $(this).offset().top;
+            if (pos < winTop + 800) {
+                $(this).addClass("slideLeft");
+            }
+        });
+    });
+
+    $('.bxslider').bxSlider({
+        auto: true,
+        autoControls: true,
+        stopAutoOnClick: true,
+        pager: true,
+        slideWidth: 600
+    });
 });
