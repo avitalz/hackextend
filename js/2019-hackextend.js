@@ -17,12 +17,10 @@ $(document).ready(function() {
         })
     })();
 
-
-
     const year = new Date().getFullYear();
     const choosenDate = new Date(year , 10 , 28).getTime();
 
-    let countdown = setInterval(function() {
+    function setTime(){
         const today = new Date().getTime();
         const diff = choosenDate - today;
 
@@ -41,8 +39,15 @@ $(document).ready(function() {
                 <div class=\"seconds\"> \
                 <div class=\"c-number\">" + seconds + "</div><div class='c-title seconds-title'>Seconds</div></div> \
                 </div>";
-        } , 1000);
+    }
 
+    (function () {
+        setTime();
+    })();
+
+    let countdown = setInterval(function() {
+        setTime();
+    } , 1000);
 
     $(window).scroll(function() {
         var winTop = $(window).scrollTop();

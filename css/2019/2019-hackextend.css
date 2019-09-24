@@ -364,11 +364,6 @@ p.card-content ~ h3 {
     height: auto !important;
 }
 
-.wixlogo{
-    height: auto !important;
-    width: 186px !important;
-}
-
 .logo-silver {
     height: 45px;
     padding: 16px;
@@ -611,33 +606,33 @@ p.card-content ~ h3 {
 }
 
 @media screen and (max-width: 427px) {
-    .contact-items {
-        width: 100%;
-    }
+.contact-items {
+    width: 100%;
+}
 }
 
 @media screen and (max-width: 320px) {
-    .c-number{
-        font-size: 2em;
-    }
+.c-number{
+    font-size: 2em;
+}
 
-    .days, .hours, .minutes, .seconds, .left {
-        width: 32px;
-    }
+.days, .hours, .minutes, .seconds, .left {
+    width: 32px;
+}
 
-    .minutes-title{
-        margin-left: -12px;
-    }
+.minutes-title{
+    margin-left: -12px;
+}
 
-    .seconds-title {
-        margin-left: -15px;
-    }
+.seconds-title {
+    margin-left: -15px;
+}
 }
 
 @media screen and (max-width: 1200px) {
-    .person{
-        width: unset;
-    }
+.person{
+    width: unset;
+}
 }
 
 
