@@ -359,6 +359,20 @@ p.card-content ~ h3 {
     margin: 0 auto;
 }
 
+.wixlogo {
+    width: 190px !important;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+
+.chegglogo{
+    width: 300px !important;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
 .gmlogo{
     width: 198px !important;
     height: auto !important;
@@ -560,6 +574,13 @@ p.card-content ~ h3 {
 
     .bx-wrapper {
         max-width: 51%;
+    }
+}
+
+@media screen and (min-width: 734px) {
+    .wixlogo {
+        margin-right: 95px;
+        margin-left: 95px;
     }
 }
 
