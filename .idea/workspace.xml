@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2250664e-fb2e-496a-8126-045196f9bdcf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/2019/2019-hackextend.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/2019/2019-hackextend.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,7 +42,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="870" />
+          <entry key="css" value="907" />
           <entry key="html" value="991" />
           <entry key="js" value="705" />
           <entry key="scss" value="2" />
@@ -52,7 +50,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="870" />
+          <entry key="CSS" value="907" />
           <entry key="HTML" value="992" />
           <entry key="JavaScript" value="704" />
           <entry key="SCSS" value="2" />
@@ -80,8 +78,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/2019/2019-hackextend.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="370" column="28" selection-start-line="370" selection-start-column="28" selection-end-line="370" selection-end-column="28" />
+            <state relative-caret-position="254">
+              <caret line="612" column="5" lean-forward="true" selection-start-line="612" selection-start-column="5" selection-end-line="612" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -106,11 +104,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>gmlogo</find>
-      <find>spo</find>
-      <find>Regist</find>
-      <find>Hack</find>
-      <find>double</find>
       <find>count-down</find>
       <find>hackext</find>
       <find>-34vw</find>
@@ -130,12 +123,17 @@
       <find>count</find>
       <find>.count-down .registration-link</find>
       <find>GM</find>
-      <find>wix</find>
       <find>animation</find>
       <find>logo-go</find>
       <find>logo</find>
-      <find>wixlogo</find>
       <find>chegg</find>
+      <find>.wixlogo</find>
+      <find>wixlogo</find>
+      <find>.logo-gold</find>
+      <find>wix</find>
+      <find>550</find>
+      <find>cheg</find>
+      <find>chegglogo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -162,9 +160,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1474" />
-    <option name="y" value="243" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1236" />
+    <option name="y" value="263" />
     <option name="width" value="1936" />
     <option name="height" value="1092" />
   </component>
@@ -244,15 +242,15 @@
       <workItem from="1567339094718" duration="44000" />
       <workItem from="1567340478635" duration="39182000" />
       <workItem from="1569137881540" duration="28857000" />
-      <workItem from="1569324274935" duration="6349000" />
+      <workItem from="1569324274935" duration="8588000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74432000" />
+    <option name="totallyTimeSpent" value="76671000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1474" y="243" width="1936" height="1092" extended-state="0" />
+    <frame x="1272" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16965227" />
@@ -268,7 +266,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" side_tool="true" visible="true" weight="0.24608968" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" side_tool="true" visible="true" weight="0.25568798" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -348,8 +346,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/2019/2019-hackextend.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="370" column="28" selection-start-line="370" selection-start-column="28" selection-end-line="370" selection-end-column="28" />
+        <state relative-caret-position="254">
+          <caret line="612" column="5" lean-forward="true" selection-start-line="612" selection-start-column="5" selection-end-line="612" selection-end-column="5" />
         </state>
       </provider>
     </entry>
