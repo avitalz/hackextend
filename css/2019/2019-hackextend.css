@@ -154,10 +154,11 @@ nav .button-yellow {
 }
 
 #countdown {
-    color: #F6F4F3;
+    color: #4296ff;
     text-align: center;
-    text-transform: uppercase;
-    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    /*text-transform: uppercase;*/
+    /*font-family: "Lato", sans-serif;*/
     font-size: 1em;
     letter-spacing: 3px;
     margin-top: 5%;
@@ -172,27 +173,30 @@ nav .button-yellow {
 
 .days, .hours, .minutes, .seconds, .left {
     display: inline-block;
-    padding: 20px;
+    padding: 20px 8px;
     width: 40px;
-    border-radius: 10px;
+    border-radius: 8px;
+    border: 1px #4296ff solid;
+
 }
 
-.days , .minutes{
-    background: #4296ff;
-}
+/*.days , .minutes{*/
+    /*background: #4296ff;*/
+/*}*/
 
-.hours , .seconds {
-    background:  #484880;
-}
+/*.hours , .seconds {*/
+    /*background:  #484880;*/
+/*}*/
 
 .left {
     background: #E10A0A;
 }
 
 .c-number {
-    font-family: "Montserrat", sans-serif;
-    color: #FFFFFF;
+    /*font-family: "Montserrat", sans-serif;*/
+    color: #4296ff;
     font-size: 1.5em;
+
 }
 
 .c-title{
