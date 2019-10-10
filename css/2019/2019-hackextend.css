@@ -82,6 +82,8 @@ ul {
 
 .header-where-title {
     color: black;
+    margin-right: 16px;
+    margin-left: 16px;
     font-size: 28px;
     font-weight: bold;
     line-height: 1.4;
@@ -177,7 +179,8 @@ nav .button-yellow {
     width: 40px;
     border-radius: 8px;
     border: 1px #4296ff solid;
-
+    text-align: center;
+    align-content: center;
 }
 
 /*.days , .minutes{*/
@@ -339,56 +342,32 @@ p.card-content ~ h3 {
 
 .logo-collection {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    align-content: space-around;
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 0 auto;
-    max-width: 550px;
-    /*max-height: 100%;*/
-    text-align: center;
-}
-
-.logo-grid{
-    display: inline-grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: min-content min-content min-content;
-    grid-column-gap: 32px;
-    justify-content: center;
+    max-width: 850px;
 }
 
 .logo-link {
     margin: 0 auto;
-    /*background-color: #E10A0A;*/
-    max-width: 100%;
-    vertical-align: middle;
-        /*width: 33%;*/
-    max-height: 100%;
-    text-align: center;
-    flex-wrap: wrap;
-    display: flex;
-    /*flex-basis: 0;*/
-    /*flex-grow: 1;*/
 }
 
 .logo-platinum {
-    max-height: 120px;
+    height: auto;
+    max-width: 90%;
     /*padding: 16px;*/
     margin: 0 auto;
     /*background-color: #ffcc05;*/
 
 }
 
-
-
 .logo-gold {
-    max-height: 120px;
-    max-width: 100%;
-    object-fit: contain;
-    vertical-align: middle;
-
-    /*padding: 16px;*/
-    text-align: center;
-    /*background-color: #ffcc05;*/
+    /*height: 120px;*/
+    max-width: 90%;
+    padding: 16px;
+    margin: 0 auto;
 }
 
 .wixlogo{
@@ -601,10 +580,6 @@ p.card-content ~ h3 {
         max-width: 1120px;
     }
 
-    .logo-collection {
-        max-width: 1120px;
-    }
-
     .days, .hours, .minutes, .seconds, .left{
         width: 120px !important;
     }
@@ -638,8 +613,8 @@ p.card-content ~ h3 {
     }
 
     .logo-gold {
-        height: auto;
-        width: 380px;
+        height: 120px;
+        width: auto;
     }
 
     .wixlogo {
