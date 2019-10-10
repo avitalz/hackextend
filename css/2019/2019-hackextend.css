@@ -181,6 +181,7 @@ nav .button-yellow {
     border: 1px #4296ff solid;
     text-align: center;
     align-content: center;
+    visibility: collapse;
 }
 
 /*.days , .minutes{*/
@@ -582,6 +583,7 @@ p.card-content ~ h3 {
 
     .days, .hours, .minutes, .seconds, .left{
         width: 120px !important;
+        visibility: visible;
     }
 
     .c-number{
@@ -636,6 +638,7 @@ p.card-content ~ h3 {
 
     .days, .hours, .minutes, .seconds, .left{
         width: 80px;
+        visibility: visible;
     }
 
     .c-number{
