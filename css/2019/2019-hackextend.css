@@ -388,7 +388,8 @@ p.card-content ~ h3 {
 }
 
 .gmlogo{
-    width: 198px !important;
+    margin-top: 20px;
+    width: 80% !important;
     height: auto !important;
 }
 
