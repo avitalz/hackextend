@@ -276,6 +276,11 @@ p.card-content ~ h3 {
     margin: 0 auto;
 }
 
+.soluto{
+	width: 343px;
+    height: 73px;
+}
+
 .sponsors {
     text-align: center;
     margin: 0 auto;
