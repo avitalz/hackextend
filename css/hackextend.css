@@ -276,10 +276,6 @@ p.card-content ~ h3 {
     margin: 0 auto;
 }
 
-.soluto{
-	height: 89%;
-}
-
 .sponsors {
     text-align: center;
     margin: 0 auto;
@@ -477,6 +473,10 @@ p.card-content ~ h3 {
     .logo-silver {
         height: 60px;
     }
+	
+	.soluto {
+		height: 89%;
+	}
 }
 
 @media screen and (max-width: 427px) {
