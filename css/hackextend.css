@@ -473,10 +473,6 @@ p.card-content ~ h3 {
     .logo-silver {
         height: 60px;
     }
-	
-	img.logo-gold.soluto {
-		height: 89%;
-	}
 }
 
 @media screen and (max-width: 427px) {

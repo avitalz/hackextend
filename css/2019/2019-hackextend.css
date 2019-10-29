@@ -387,6 +387,10 @@ p.card-content ~ h3 {
     padding-right: 32px;
 }
 
+.soluto{
+	height: 89%;
+}
+
 .gmlogo{
     margin-top: 20px;
     width: 1780px !important;
