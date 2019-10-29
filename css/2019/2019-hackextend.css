@@ -633,7 +633,8 @@ p.card-content ~ h3 {
     }
 	
 	.soluto{
-		height: 89%;
+		height: 89% !important;
+		width: 317px !important;
 	}
 
     .chegglogo {
