@@ -305,6 +305,11 @@ p.card-content ~ h3 {
     text-decoration: none;
 }
 
+.contact a img {
+    width: 47px;
+    height: 47px;
+}
+
 .contact h2 {
     padding-top: 24px;
 }
