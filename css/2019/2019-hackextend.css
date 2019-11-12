@@ -90,6 +90,11 @@ ul {
     margin-bottom: 40px;
 }
 
+.header-where-title-size{
+	font-size: 35px;
+	color: #4296ff;
+}
+
 .header-where {
     color: black;
     font-size: 28px;
