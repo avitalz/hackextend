@@ -23,9 +23,10 @@ $(document).ready(function() {
     function setTime(){
         const today = new Date().getTime();
         const diff = choosenDate - today;
+		
 
         let days = Math.floor(diff / (1000 * 60 * 60 * 24));
-        let hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        let hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60) +10);
         let minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
         let seconds = Math.floor((diff % (1000 * 60)) / 1000);
 
