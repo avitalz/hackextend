@@ -18,7 +18,7 @@ $(document).ready(function() {
     })();
 
     const year = new Date().getFullYear();
-    const choosenDate = new Date(year , 10 , 28).getTime();
+    const choosenDate = new Date(year , 10 , 29).getTime();
 
     function setTime(){
         const today = new Date().getTime();
