@@ -267,11 +267,11 @@ p.card-content ~ h3 {
 }
 
 .slideright{
-    visibility: hidden;
+    display:none;
 }
 
 .slideleft{
-    visibility: hidden;
+    display:none;
 }
 
 .cards {
@@ -612,6 +612,11 @@ p.card-content ~ h3 {
     .bx-wrapper {
         max-width: 51%;
     }
+	
+	.hackextend-image{
+		height:50%
+	}
+
 }
 
 /* Large screens */

@@ -30,7 +30,7 @@ $(document).ready(function() {
         let minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60)+60);
         let seconds = Math.floor((diff % (1000 * 60)) / 1000+60);
 
-        document.getElementById("countdown").innerHTML =
+        /*document.getElementById("countdown").innerHTML =
             "<div class=\"days\"> \
                 <div class=\"c-number\">" + days + "</div><div class='c-title'>Days</div></div> \
                 <div class=\"hours\"> \
@@ -39,7 +39,7 @@ $(document).ready(function() {
                 <div class=\"c-number\">" + minutes + "</div><div class='c-title minutes-title'>Minutes</div></div> \
                 <div class=\"seconds\"> \
                 <div class=\"c-number\">" + seconds + "</div><div class='c-title seconds-title'>Seconds</div></div> \
-                </div>";
+                </div>";**/
     }
 
     (function () {
